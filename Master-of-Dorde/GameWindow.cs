@@ -7,21 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Master_of_Dorde.Engine;
 
 namespace Master_of_Dorde
 {
-    public partial class Form1 : Form
+    public partial class GameWindow : Form
     {
-        public Form1()
+        private Person Character;
+
+        public GameWindow()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public GameWindow(PClass pClass)
         {
-            EntPersWnd entPW = new EntPersWnd();
-            entPW.Show();
-            Hide();
+            Character = new Person(pClass);
         }
     }
 }
