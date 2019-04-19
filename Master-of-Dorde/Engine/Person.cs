@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Master_of_Dorde.Engine
+﻿namespace Master_of_Dorde.Engine
 {
     class Person
     {
+        // Класс мобов
+
         public PClass pClass;
         public int Health, Mana, Armor;
-        public int maxHealth, maxMana, maxArmor;
+        public int maxHealth, maxMana, maxArmor;    // Максимально возможные значения
 
         public int IF1, IF2;      // Impact Force (Сила удара)
-
 
         public Person(PClass pClass)
         {
@@ -25,6 +20,7 @@ namespace Master_of_Dorde.Engine
                     maxArmor = 130;
                     IF1 = 30;
                     IF2 = 60;
+                    this.pClass = PClass.PC_WARRIOR;
                     break;
 
                 case PClass.PC_MAGE:
@@ -33,6 +29,7 @@ namespace Master_of_Dorde.Engine
                     maxArmor = 30;
                     IF1 = 60;
                     IF2 = 10;
+                    this.pClass = PClass.PC_MAGE;
                     break;
 
                 case PClass.PC_BERSERK:
@@ -41,16 +38,17 @@ namespace Master_of_Dorde.Engine
                     maxArmor = 90;
                     IF1 = 60;
                     IF2 = 20;
+                    this.pClass = PClass.PC_BERSERK;
                     break;
 
                 default:
                     break;
             }
 
+            // Устанавливаем все на максимум в начале игры
             Health = maxHealth;
             Mana = maxMana;
             Armor = maxArmor;
-
         }
     }
 }

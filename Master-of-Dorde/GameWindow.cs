@@ -13,16 +13,48 @@ namespace Master_of_Dorde
 {
     public partial class GameWindow : Form
     {
-        private Person Character;
+        private Person Character;    // Переменная игрока
+        private Person Enemy;        // Переменная врага
 
         public GameWindow()
         {
             InitializeComponent();
         }
 
-        public GameWindow(PClass pClass)
+        public GameWindow(PClass pClass)  // При создании окна принимаем класс будущего игрока
         {
-            Character = new Person(pClass);
+            InitializeComponent();
+
+            Character = new Person(pClass);     // Создаем игрока с ранее полученым классом
+            Enemy = new Person(PClass.PC_MAGE); // Создаем противника
+            DataUpdate();  // Обновляем информацию
+        }
+
+        private void DataUpdate() 
+        {
+            // Метод, обновляющий информацию
+
+            // Обновляем информацию игрока
+            PersHealthIndicatorLbl.Text = Convert.ToString(Character.Health);
+            PersArmorIndicatorLbl.Text = Convert.ToString(Character.Armor);
+            PersManaIndicatorLbl.Text = Convert.ToString(Character.Mana);
+
+            // Обновляем информацию противника
+            EnemyHealthIndicatorLbl.Text = Convert.ToString(Enemy.Health);
+            EnemyArmorIndicatorLbl.Text = Convert.ToString(Enemy.Armor);
+            EnemyManaIndicatorLbl.Text = Convert.ToString(Enemy.Mana);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Enemy = Logic.Impact(Enemy, Character.IF1);       // Враг получает урон
+            DataUpdate();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Enemy = Logic.Impact(Enemy, Character.IF2);       // Враг получает урон
+            DataUpdate();
         }
     }
 }
