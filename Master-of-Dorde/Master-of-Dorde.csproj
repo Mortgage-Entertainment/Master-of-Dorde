@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engine\PassingMove.cs" />
     <Compile Include="Engine\Enums.cs" />
     <Compile Include="Engine\Logic.cs" />
     <Compile Include="Engine\Person.cs" />
