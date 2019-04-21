@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Master_of_Dorde.Properties {
+namespace Master_of_Dorde.Engine {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Master_of_Dorde.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Master_of_Dorde.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Master_of_Dorde.Engine.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Berserk {
+        internal static System.Drawing.Bitmap Berserk_Stat {
             get {
-                object obj = ResourceManager.GetObject("Berserk", resourceCulture);
+                object obj = ResourceManager.GetObject("Berserk_Stat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Монтажная_область_1 {
+        internal static System.Drawing.Bitmap Button_Hover {
             get {
-                object obj = ResourceManager.GetObject("Монтажная область 1", resourceCulture);
+                object obj = ResourceManager.GetObject("Button_Hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Монтажная_область_1_1 {
+        internal static System.Drawing.Bitmap Button_Passive {
             get {
-                object obj = ResourceManager.GetObject("Монтажная область 1_1", resourceCulture);
+                object obj = ResourceManager.GetObject("Button_Passive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Монтажная_область_10_копия {
+        internal static System.Drawing.Bitmap Esc_Btn {
             get {
-                object obj = ResourceManager.GetObject("Монтажная область 10 копия", resourceCulture);
+                object obj = ResourceManager.GetObject("Esc_Btn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Монтажная_область_2 {
+        internal static System.Drawing.Bitmap Mage_Class_Btn_Hov {
             get {
-                object obj = ResourceManager.GetObject("Монтажная область 2", resourceCulture);
+                object obj = ResourceManager.GetObject("Mage_Class_Btn_Hov", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Монтажная_область_5 {
+        internal static System.Drawing.Bitmap Mage_Class_Btn_Pass {
             get {
-                object obj = ResourceManager.GetObject("Монтажная область 5", resourceCulture);
+                object obj = ResourceManager.GetObject("Mage_Class_Btn_Pass", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Монтажная_область_6 {
+        internal static System.Drawing.Bitmap Mage_Stat {
             get {
-                object obj = ResourceManager.GetObject("Монтажная область 6", resourceCulture);
+                object obj = ResourceManager.GetObject("Mage_Stat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Монтажная_область_8 {
+        internal static System.Drawing.Bitmap Main_Bckgrnd {
             get {
-                object obj = ResourceManager.GetObject("Монтажная область 8", resourceCulture);
+                object obj = ResourceManager.GetObject("Main_Bckgrnd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,49 @@ namespace Master_of_Dorde.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Монтажная_область_8_копия {
+        internal static System.Drawing.Bitmap Main_Bckgrnd_Dark {
             get {
-                object obj = ResourceManager.GetObject("Монтажная область 8 копия", resourceCulture);
+                object obj = ResourceManager.GetObject("Main_Bckgrnd_Dark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Right_Panel_Bckgrnd {
+            get {
+                object obj = ResourceManager.GetObject("Right_Panel_Bckgrnd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Warrior_Class_Btn_Hov {
+            get {
+                object obj = ResourceManager.GetObject("Warrior_Class_Btn_Hov", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Warrior_Class_Btn_Pass {
+            get {
+                object obj = ResourceManager.GetObject("Warrior_Class_Btn_Pass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Warrior_Stat {
+            get {
+                object obj = ResourceManager.GetObject("Warrior_Stat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

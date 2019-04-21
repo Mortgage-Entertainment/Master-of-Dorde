@@ -50,6 +50,11 @@
     <Compile Include="Engine\Enums.cs" />
     <Compile Include="Engine\Logic.cs" />
     <Compile Include="Engine\Person.cs" />
+    <Compile Include="Engine\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="EntPersWnd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +75,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Engine\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="EntPersWnd.resx">
       <DependentUpon>EntPersWnd.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +113,72 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Engine\Items\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 6 копия.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 8 копия.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 10 копия 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 10 копия.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 1_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 8 копия1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berserk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 10 копия1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монтажная область 61.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
