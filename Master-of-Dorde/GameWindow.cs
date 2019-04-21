@@ -27,6 +27,7 @@ namespace Master_of_Dorde
 
             Character = new Person(pClass);     // Создаем игрока с ранее полученым классом
             Enemy = new Person(PClass.PC_MAGE); // Создаем противника
+            PassingMove.PassAMove(Character);                 // Передаем ход ( выполняем атаку противника )
             DataUpdate();  // Обновляем информацию
         }
 
@@ -48,12 +49,14 @@ namespace Master_of_Dorde
         private void button1_Click(object sender, EventArgs e)
         {
             Enemy = Logic.Impact(Enemy, Character.IF1);       // Враг получает урон
+            PassingMove.PassAMove(Character);                 // Передаем ход ( выполняем атаку противника )
             DataUpdate();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Enemy = Logic.Impact(Enemy, Character.IF2);       // Враг получает урон
+            PassingMove.PassAMove(Character);                 // Передаем ход ( выполняем атаку противника )
             DataUpdate();
         }
     }
