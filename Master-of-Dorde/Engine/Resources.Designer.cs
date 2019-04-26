@@ -63,6 +63,46 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bckgnd_White {
+            get {
+                object obj = ResourceManager.GetObject("Bckgnd_White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bckgrnd_Dark {
+            get {
+                object obj = ResourceManager.GetObject("Bckgrnd_Dark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bckgrnd_Panel_White {
+            get {
+                object obj = ResourceManager.GetObject("Bckgrnd_Panel_White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Berserk_Sprite {
+            get {
+                object obj = ResourceManager.GetObject("Berserk_Sprite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Berserk_Stat {
             get {
                 object obj = ResourceManager.GetObject("Berserk_Stat", resourceCulture);
@@ -73,9 +113,9 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Button_Hover {
+        internal static System.Drawing.Bitmap BerserkClassBtn_Passive {
             get {
-                object obj = ResourceManager.GetObject("Button_Hover", resourceCulture);
+                object obj = ResourceManager.GetObject("BerserkClassBtn_Passive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +123,19 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Button_Passive {
+        internal static System.Drawing.Bitmap Btn_Grn_Hover {
             get {
-                object obj = ResourceManager.GetObject("Button_Passive", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_Grn_Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Btn_Grn_Passive {
+            get {
+                object obj = ResourceManager.GetObject("Btn_Grn_Passive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,26 +153,6 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Mage_Class_Btn_Hov {
-            get {
-                object obj = ResourceManager.GetObject("Mage_Class_Btn_Hov", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Mage_Class_Btn_Pass {
-            get {
-                object obj = ResourceManager.GetObject("Mage_Class_Btn_Pass", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Mage_Stat {
             get {
                 object obj = ResourceManager.GetObject("Mage_Stat", resourceCulture);
@@ -133,9 +163,9 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Main_Bckgrnd {
+        internal static System.Drawing.Bitmap MageClassBtn_Hover {
             get {
-                object obj = ResourceManager.GetObject("Main_Bckgrnd", resourceCulture);
+                object obj = ResourceManager.GetObject("MageClassBtn_Hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,39 +173,9 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Main_Bckgrnd_Dark {
+        internal static System.Drawing.Bitmap MageClassBtn_Passive {
             get {
-                object obj = ResourceManager.GetObject("Main_Bckgrnd_Dark", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Right_Panel_Bckgrnd {
-            get {
-                object obj = ResourceManager.GetObject("Right_Panel_Bckgrnd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Warrior_Class_Btn_Hov {
-            get {
-                object obj = ResourceManager.GetObject("Warrior_Class_Btn_Hov", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Warrior_Class_Btn_Pass {
-            get {
-                object obj = ResourceManager.GetObject("Warrior_Class_Btn_Pass", resourceCulture);
+                object obj = ResourceManager.GetObject("MageClassBtn_Passive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +186,26 @@ namespace Master_of_Dorde.Engine {
         internal static System.Drawing.Bitmap Warrior_Stat {
             get {
                 object obj = ResourceManager.GetObject("Warrior_Stat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WarriorClassBtn_Hover {
+            get {
+                object obj = ResourceManager.GetObject("WarriorClassBtn_Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WarriorClassBtn_Passive {
+            get {
+                object obj = ResourceManager.GetObject("WarriorClassBtn_Passive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

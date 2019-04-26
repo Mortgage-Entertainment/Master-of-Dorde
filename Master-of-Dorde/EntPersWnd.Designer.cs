@@ -124,7 +124,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(136)))), ((int)(((byte)(46)))));
             this.label1.Font = new System.Drawing.Font("Century Gothic", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(360, 280);
+            this.label1.Location = new System.Drawing.Point(349, 280);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(219, 57);
             this.label1.TabIndex = 9;

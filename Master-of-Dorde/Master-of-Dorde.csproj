@@ -74,6 +74,12 @@
     <Compile Include="GameWindow.Designer.cs">
       <DependentUpon>GameWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="GraphicsTestWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicsTestWnd.Designer.cs">
+      <DependentUpon>GraphicsTestWnd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Engine\Resources.resx">
@@ -88,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameWindow.resx">
       <DependentUpon>GameWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicsTestWnd.resx">
+      <DependentUpon>GraphicsTestWnd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -116,70 +125,49 @@
     <Folder Include="Engine\Items\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 6.png" />
+    <None Include="Resources\Btn_Grn_Passive.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 6 копия.png" />
+    <None Include="Resources\Btn_Grn_Hover.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 1.png" />
+    <None Include="Resources\MageClassBtn_Passive.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 4.png" />
+    <None Include="Resources\MageClassBtn_Hover.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 1_1.png" />
+    <None Include="Resources\WarriorClassBtn_Passive.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 5.png" />
+    <None Include="Resources\WarriorClassBtn_Hover.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 14.png" />
+    <None Include="Resources\Esc_Btn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 8.png" />
+    <None Include="Resources\Bckgnd_White.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 9.png" />
+    <None Include="Resources\Bckgrnd_Panel_White.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 8 копия.png" />
+    <None Include="Resources\Warrior_Stat.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 10 копия 2.png" />
+    <None Include="Resources\Mage_Stat.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 10.png" />
+    <None Include="Resources\Berserk_Stat.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 10 копия.png" />
+    <None Include="Resources\BerserkClassBtn_Passive.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 1_11.png" />
+    <Content Include="Resources\Bckgrnd_Dark.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Монтажная область 2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Монтажная область 11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Монтажная область 51.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Монтажная область 81.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Монтажная область 8 копия1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Berserk.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Монтажная область 10 копия1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Монтажная область 61.png" />
+    <None Include="Resources\Berserk_Sprite.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

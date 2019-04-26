@@ -14,8 +14,10 @@ namespace Master_of_Dorde.Engine
             // Метод, обрабатывающий удары и прочее получение урона
 
             person.Health -= IF;    // отнимаем от здоровья игрока силу удара
+
             if (person.Health <= 0) {
                 MessageBox.Show("Противник умер в тилте");
+                Application.Exit();
             }
             return person;
         }
