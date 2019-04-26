@@ -35,7 +35,7 @@
             // BtnImg1
             // 
             this.BtnImg1.BackColor = System.Drawing.SystemColors.Window;
-            this.BtnImg1.BackgroundImage = global::Master_of_Dorde.Properties.Resources.Монтажная_область_6;
+            this.BtnImg1.BackgroundImage = global::Master_of_Dorde.Engine.Resources.Btn_Grn_Passive;
             this.BtnImg1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnImg1.Location = new System.Drawing.Point(12, 12);
             this.BtnImg1.Name = "BtnImg1";
@@ -44,21 +44,26 @@
             this.BtnImg1.TabStop = false;
             this.BtnImg1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox7_DragEnter);
             this.BtnImg1.MouseEnter += new System.EventHandler(this.pictureBox7_MouseEnter);
+            this.BtnImg1.MouseLeave += new System.EventHandler(this.BtnImg1_MouseLeave);
             // 
             // GraphicsTestWnd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1089, 494);
+            this.ControlBox = false;
             this.Controls.Add(this.BtnImg1);
             this.Name = "GraphicsTestWnd";
             this.Text = "GraphicsTestWnd";
+            this.Load += new System.EventHandler(this.GraphicsTestWnd_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BtnImg1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+
 
         private System.Windows.Forms.PictureBox BtnImg1;
     }

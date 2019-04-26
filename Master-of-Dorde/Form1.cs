@@ -23,5 +23,11 @@ namespace Master_of_Dorde
             entPW.Show();
             Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            GraphicsTestWnd graphicsTestWnd = new GraphicsTestWnd();
+            graphicsTestWnd.Show();
+        }
     }
 }

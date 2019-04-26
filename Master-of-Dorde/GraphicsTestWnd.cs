@@ -24,7 +24,22 @@ namespace Master_of_Dorde
 
         private void pictureBox7_MouseEnter(object sender, EventArgs e)
         {
-            BtnImg1.ImageLocation = "../Resources/540.jpg";
+            BtnImg1.BackgroundImage = Engine.Resources.Btn_Grn_Hover;
+        }
+
+        private void BtnImg1_MouseLeave(object sender, EventArgs e)
+        {
+            BtnImg1.BackgroundImage = Engine.Resources.Btn_Grn_Passive;
+        }
+
+        private void GraphicsTestWnd_Load(object sender, EventArgs e)
+        {
+            // Делаем обычный стиль.
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            // Убираем кнопки свернуть, развернуть, закрыть.
+            ControlBox = false;
+            // Убираем заголовок.
+            Text = "";
         }
     }
 }

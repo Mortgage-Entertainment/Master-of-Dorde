@@ -14,4 +14,12 @@ namespace Master_of_Dorde.Engine
         PC_MAGE,
         PC_BERSERK
     }
+
+    public enum LastAttack
+    {
+        // Перечисление, которое будет хранить последнюю атаку, сделанную игроком
+        // Нужна для усложненной работы ИИ
+        // LA (Last Attack)
+
+    }
 }
