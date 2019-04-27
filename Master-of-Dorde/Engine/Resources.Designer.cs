@@ -113,6 +113,16 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BerserkClassBtn_Hover {
+            get {
+                object obj = ResourceManager.GetObject("BerserkClassBtn_Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BerserkClassBtn_Passive {
             get {
                 object obj = ResourceManager.GetObject("BerserkClassBtn_Passive", resourceCulture);
@@ -143,9 +153,19 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Esc_Btn {
+        internal static System.Drawing.Bitmap EscBtn_Passive {
             get {
-                object obj = ResourceManager.GetObject("Esc_Btn", resourceCulture);
+                object obj = ResourceManager.GetObject("EscBtn_Passive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mage_Sprite {
+            get {
+                object obj = ResourceManager.GetObject("Mage_Sprite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +196,16 @@ namespace Master_of_Dorde.Engine {
         internal static System.Drawing.Bitmap MageClassBtn_Passive {
             get {
                 object obj = ResourceManager.GetObject("MageClassBtn_Passive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Warrior_Sprite {
+            get {
+                object obj = ResourceManager.GetObject("Warrior_Sprite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
