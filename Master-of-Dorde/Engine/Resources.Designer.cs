@@ -63,16 +63,6 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bckgnd_White {
-            get {
-                object obj = ResourceManager.GetObject("Bckgnd_White", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Bckgrnd_Dark {
             get {
                 object obj = ResourceManager.GetObject("Bckgrnd_Dark", resourceCulture);
@@ -86,6 +76,16 @@ namespace Master_of_Dorde.Engine {
         internal static System.Drawing.Bitmap Bckgrnd_Panel_White {
             get {
                 object obj = ResourceManager.GetObject("Bckgrnd_Panel_White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bckgrnd_White {
+            get {
+                object obj = ResourceManager.GetObject("Bckgrnd_White", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +146,16 @@ namespace Master_of_Dorde.Engine {
         internal static System.Drawing.Bitmap Btn_Grn_Passive {
             get {
                 object obj = ResourceManager.GetObject("Btn_Grn_Passive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EscBtn_Hover {
+            get {
+                object obj = ResourceManager.GetObject("EscBtn_Hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

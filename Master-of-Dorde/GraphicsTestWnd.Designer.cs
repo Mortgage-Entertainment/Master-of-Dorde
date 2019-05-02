@@ -56,6 +56,9 @@
             this.EscBtn.Size = new System.Drawing.Size(50, 50);
             this.EscBtn.TabIndex = 15;
             this.EscBtn.TabStop = false;
+            this.EscBtn.Click += new System.EventHandler(this.EscBtn_Click);
+            this.EscBtn.MouseEnter += new System.EventHandler(this.EscBtn_MouseEnter);
+            this.EscBtn.MouseLeave += new System.EventHandler(this.EscBtn_MouseLeave);
             // 
             // MageClassBtn
             // 
@@ -114,7 +117,6 @@
             // BtnImg1
             // 
             this.BtnImg1.BackColor = System.Drawing.SystemColors.Control;
-            this.BtnImg1.BackgroundImage = global::Master_of_Dorde.Engine.Resources.Btn_Grn_Passive;
             this.BtnImg1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnImg1.Location = new System.Drawing.Point(12, 12);
             this.BtnImg1.Name = "BtnImg1";

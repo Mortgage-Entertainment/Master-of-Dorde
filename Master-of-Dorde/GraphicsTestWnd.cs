@@ -40,18 +40,22 @@ namespace Master_of_Dorde
             ControlBox = false;
             // Убираем заголовок.
             Text = "";
+            // Окно на весь экран
+            WindowState = FormWindowState.Maximized;
+
 
             MainBackgroundPanel.BackgroundImage = Engine.Resources.Bckgrnd_Dark;
+            BtnImg1.BackgroundImage         = Engine.Resources.Btn_Grn_Passive;
             RightPanel.BackgroundImage      = Engine.Resources.Bckgrnd_Panel_White;
             MageClassBtn.BackgroundImage    = Engine.Resources.MageClassBtn_Passive;
             WarriorClassBtn.BackgroundImage = Engine.Resources.WarriorClassBtn_Passive;
             BerserkClassBtn.BackgroundImage = Engine.Resources.BerserkClassBtn_Passive;
-            SpriteBox.BackColor = BackColor;
+            EscBtn.BackgroundImage          = Engine.Resources.EscBtn_Passive;
         }
 
         private void BtnImg1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Fug u boi", "Message which says", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void MageClassBtn_MouseEnter(object sender, EventArgs e)
@@ -100,6 +104,21 @@ namespace Master_of_Dorde
         {
             SpriteBox.BackgroundImage = Engine.Resources.Berserk_Sprite;
             InfBox.BackgroundImage = Engine.Resources.Berserk_Stat;
+        }
+
+        private void EscBtn_MouseEnter(object sender, EventArgs e)
+        {
+            EscBtn.BackgroundImage = Engine.Resources.EscBtn_Hover;
+        }
+
+        private void EscBtn_MouseLeave(object sender, EventArgs e)
+        {
+            EscBtn.BackgroundImage = Engine.Resources.EscBtn_Passive;
+        }
+
+        private void EscBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
