@@ -13,6 +13,8 @@ namespace Master_of_Dorde
 {
     public partial class EntPersWnd : Form
     {
+        bool MageClassBtnActive, BerserkClassBtnActive, WarriorClassBtnActive;
+
         public EntPersWnd()
         {
             InitializeComponent();
@@ -37,6 +39,68 @@ namespace Master_of_Dorde
             GameWindow gameWnd = new GameWindow(PClass.PC_BERSERK);  // Если игрок выбрал берсерка создаем окно игры и передаем туда класс берсерка 
             Close();  // закрываем текущее окно
             gameWnd.Show();  // показываем окно игры
+        }
+
+        private void MageClassBtn_MouseEnter(object sender, EventArgs e)
+        {
+            MageClassBtn.BackgroundImage = Engine.Resources.MageClassBtn_Hover;
+        }
+
+        private void EntPersWnd_Load(object sender, EventArgs e)
+        {
+            MageClassBtn.BackgroundImage = Engine.Resources.MageClassBtn_Passive;
+            WarriorClassBtn.BackgroundImage = Engine.Resources.WarriorClassBtn_Passive;
+            BerserkClassBtn.BackgroundImage = Engine.Resources.BerserkClassBtn_Passive;
+            StatImage.BackgroundImage = Resources.Bckgrnd_Dark;
+        }
+
+        private void MageClassBtn_MouseLeave(object sender, EventArgs e)
+        {
+            MageClassBtn.BackgroundImage = Engine.Resources.MageClassBtn_Passive;
+        }
+
+        private void WarriorClassBtn_MouseEnter(object sender, EventArgs e)
+        {
+            WarriorClassBtn.BackgroundImage = Engine.Resources.WarriorClassBtn_Hover;
+        }
+
+        private void WarriorClassBtn_MouseLeave(object sender, EventArgs e)
+        {
+            WarriorClassBtn.BackgroundImage = Engine.Resources.WarriorClassBtn_Passive;
+        }
+
+        private void BerserkClassBtn_MouseEnter(object sender, EventArgs e)
+        {
+            BerserkClassBtn.BackgroundImage = Engine.Resources.BerserkClassBtn_Hover;
+        }
+
+        private void BerserkClassBtn_MouseLeave(object sender, EventArgs e)
+        {
+            BerserkClassBtn.BackgroundImage = Engine.Resources.BerserkClassBtn_Passive;
+        }
+
+        private void MageClassBtn_Click(object sender, EventArgs e)
+        {
+            StatImage.BackgroundImage = Resources.MageStat_Complete;
+            MageClassBtnActive    = true;
+            WarriorClassBtnActive = false;
+            BerserkClassBtnActive = false;
+        }
+
+        private void WarriorClassBtn_Click(object sender, EventArgs e)
+        {
+            StatImage.BackgroundImage = Resources.WarriorStat_Complete;
+            MageClassBtnActive    = false;
+            WarriorClassBtnActive = true;
+            BerserkClassBtnActive = false;
+        }
+
+        private void BerserkClassBtn_Click(object sender, EventArgs e)
+        {
+            StatImage.BackgroundImage = Resources.BerserkStat_Complete;
+            MageClassBtnActive    = false;
+            WarriorClassBtnActive = false;
+            BerserkClassBtnActive = true;
         }
     }
 }

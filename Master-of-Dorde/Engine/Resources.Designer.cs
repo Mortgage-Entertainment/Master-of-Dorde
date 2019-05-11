@@ -133,6 +133,16 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BerserkStat_Complete {
+            get {
+                object obj = ResourceManager.GetObject("BerserkStat_Complete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Btn_Grn_Hover {
             get {
                 object obj = ResourceManager.GetObject("Btn_Grn_Hover", resourceCulture);
@@ -213,6 +223,16 @@ namespace Master_of_Dorde.Engine {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MageStat_Complete {
+            get {
+                object obj = ResourceManager.GetObject("MageStat_Complete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Warrior_Sprite {
             get {
                 object obj = ResourceManager.GetObject("Warrior_Sprite", resourceCulture);
@@ -246,6 +266,16 @@ namespace Master_of_Dorde.Engine {
         internal static System.Drawing.Bitmap WarriorClassBtn_Passive {
             get {
                 object obj = ResourceManager.GetObject("WarriorClassBtn_Passive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WarriorStat_Complete {
+            get {
+                object obj = ResourceManager.GetObject("WarriorStat_Complete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

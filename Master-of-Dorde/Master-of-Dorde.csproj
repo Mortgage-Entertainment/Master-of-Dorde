@@ -166,7 +166,10 @@
   <ItemGroup>
     <Content Include="Resources\Bckgrnd_Dark.png" />
     <Content Include="Resources\BerserkClassBtn_Hover.png" />
+    <Content Include="Resources\BerserkStat_Complete.png" />
+    <Content Include="Resources\MageStat_Complete.png" />
     <Content Include="Resources\Mage_Sprite.png" />
+    <Content Include="Resources\WarriorStat_Complete.png" />
     <Content Include="Resources\Warrior_Sprite.png" />
     <Content Include="Resources\EscBtn_Hover.png" />
   </ItemGroup>

@@ -133,6 +133,9 @@
   <data name="BerserkClassBtn_Passive" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BerserkClassBtn_Passive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BerserkStat_Complete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BerserkStat_Complete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Berserk_Sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Berserk_Sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,6 +160,9 @@
   <data name="MageClassBtn_Passive" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MageClassBtn_Passive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MageStat_Complete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MageStat_Complete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Mage_Sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mage_Sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +174,9 @@
   </data>
   <data name="WarriorClassBtn_Passive" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WarriorClassBtn_Passive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarriorStat_Complete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WarriorStat_Complete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Warrior_Sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Warrior_Sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
